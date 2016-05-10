@@ -1,0 +1,13 @@
+header{ height: 70px; line-height: 70px;}
+header #btn-menu{ height: 70px; line-height: 50px; text-align: center; font-size: 22px; border-radius: 0;}
+header #menupos1{position: absolute; z-index: 4; top: 70px; width: 200px;}
+#submenu1{background-color: #bbb;}
+header #menupos1>a{ height: 50px; line-height: 50px; padding: 0 15px; border-radius: 0;}
+header #menupos1 .sub-sub-item{ height: 50px; line-height: 50px; padding: 0 15px;}
+header .img-responsive{ margin: 0 auto; height: 70px;}
+#leng-select{margin-top: 18px;}
+
+
+@media (max-width: 767px){
+	header #menupos1{ position: fixed; top: 70px; left: 0; width: 100%;}
+}

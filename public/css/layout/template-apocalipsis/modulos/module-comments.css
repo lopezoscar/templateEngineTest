@@ -1,0 +1,28 @@
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+
+blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+blockquote img {
+    margin-bottom: 10px;
+}
+blockquote p{
+	font-size: 13px;
+	line-height: 15px;
+}
+blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}

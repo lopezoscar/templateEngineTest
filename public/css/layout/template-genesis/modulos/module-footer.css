@@ -1,0 +1,5 @@
+footer{ font-size: 11px; padding: 20px 0; color: #fff;}
+footer h4{font-weight: 200;}
+footer ul{padding-left: 0;}
+footer ul>li{margin-bottom: 3px;}
+footer ul.social>li>a>i{font-size: 30px;}

@@ -1,0 +1,6 @@
+.imagen-x1{ background-position: center center; height: 460px; display: block; background-size: cover;}
+.imagen-x2{ background-position: center center; height: 230px; display: block; background-size: cover;}
+.experiencia{background-color:#fff;}
+.experiencia h2{font-size: 22px; font-weight: 400; margin-bottom: 90px;}
+.experiencia h2>span{width: 100%; display: block; margin: 30px auto; font-weight: 700; font-size: 18px; color: #b9c4be;}
+.experiencia p{line-height: 22px; font-size: 15px; padding: 0 20px; margin-bottom: 30px; color: #333333}

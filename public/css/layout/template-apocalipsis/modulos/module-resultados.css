@@ -1,0 +1,33 @@
+#body-content{margin-top: 70px;}
+.head-filter{border-bottom:1px dotted; padding-bottom:15px;}
+.head-filter>div{ line-height: 34px; font-size: 18px;}
+.cluster{text-align: center; color: #000; font-size: 12px; margin-top: 20px;}
+.bg-cluster:hover{ color: #000; border: 1px solid red;
+	-webkit-animation: rotation 2s linear infinite;
+  -moz-animation: rotation 1s ease infinite;
+  -ms-animation: rotation 1s ease infinite;
+  -o-animation: rotation 1s ease infinite;
+  animation: rotation 1s ease infinite;
+}
+.bg-cluster{background-color: #F5F5F5; padding-bottom: 15px; border: 1px solid #F5F5F5;}
+.bg-cluster>p{width: 100%; display: block; text-align: center; padding: 2px 0; margin: 0;}
+.cluster .img-cont{position: relative; border: 1px solid #ddd;}
+.cluster .img-cont>img{height: 130px;}
+.cluster .img-cont>p{position: absolute; z-index: 2; bottom: -10px; left: 0; width: 100%; padding: 5px; display: block; background-color: rgba(0,0,0,0.5); color: #fff; text-align: left;}
+.cluster ul{ padding-left: 15px;}
+.cluster ul>li{ padding: 0; text-align: left; margin-bottom: 5px; font-size: 11px;}
+.bg-cluster .room-price{font-size: 48px; font-weight: bold; line-height: 32px; text-align: right;}
+.bg-cluster .room-price>span{ font-weight: 300; width: 100%; display: block; font-size: 12px;}
+
+.filter{ margin-bottom: 20px;}
+.filter:last-child{margin-bottom: 0;}
+.filter>div>div{background-color: #F5F4F4; padding-top: 3px; padding-bottom: 3px;}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.head-filter>div{line-height: 20px;  font-size: 16px;}
+}
+
+
+@media (max-width: 767px){
+	.head-filter>div{line-height: 20px; margin-bottom: 25px; font-size: 16px;}
+}

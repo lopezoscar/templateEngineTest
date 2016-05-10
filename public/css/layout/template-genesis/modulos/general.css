@@ -1,0 +1,8 @@
+body, header, footer, img, a, i, button{ outline: none!important;}
+a:hover{text-decoration: none!important;}
+p{font-size: 12px; line-height: 18px;}
+.top-buffer { margin-top:20px; }
+.btn-warning{color: #000;}
+@media (max-width: 767px){
+	.btn-warning{height: 44px;}	
+}

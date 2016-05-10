@@ -1,0 +1,112 @@
+/*Color Background Header & Footer*/
+/*Color Opuesto a Background Header & Footer*/
+/*Color Amenities*/
+/*Titulos H1, h2, h3, h4, h5, h6*/
+/*Hover links*/
+/*Body Background Color*/
+/*Importacion de modulos  */
+/* line 1, ../../sass/modules/color-general.scss */
+body {
+  background-color: white; }
+
+/* line 2, ../../sass/modules/color-general.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #ff3434; }
+
+/* line 3, ../../sass/modules/color-general.scss */
+a {
+  color: #7f1a1a; }
+
+/* line 5, ../../sass/modules/color-general.scss */
+a:hover {
+  color: #ff3434; }
+
+/* line 1, ../../sass/modules/color-header.scss */
+header {
+  background-color: white; }
+
+/* line 3, ../../sass/modules/color-header.scss */
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, nav .open > a:focus {
+  color: #000000;
+  border-color: #7f4040 !important; }
+
+/* line 1, ../../sass/modules/color-hero.scss */
+.favorite-room a {
+  color: #7f1a1a; }
+
+/* line 3, ../../sass/modules/color-hero.scss */
+#porque-comprar > li > div > div > i {
+  color: #7f1a1a; }
+
+/* line 1, ../../sass/modules/color-amenities.scss */
+.icon-amenitie {
+  color: #7f4040; }
+
+/* line 2, ../../sass/modules/color-amenities.scss */
+.carousel-indicators .active, .carousel-control {
+  background-color: #ff3434; }
+
+/* line 1, ../../sass/modules/color-habitaciones.scss */
+#custom_carousel .controls li {
+  background-color: #cc2929; }
+
+/* line 6, ../../sass/modules/color-habitaciones.scss */
+#custom_carousel .controls li > a {
+  color: #fff; }
+
+/* line 7, ../../sass/modules/color-habitaciones.scss */
+#custom_carousel .controls li > a:hover, #custom_carousel .controls li > a:focus, #custom_carousel .controls li.active {
+  background-color: #ff3434; }
+
+/* line 10, ../../sass/modules/color-habitaciones.scss */
+.btn-secundario {
+  border-color: #7f4040;
+  color: #7f4040; }
+
+/* line 11, ../../sass/modules/color-habitaciones.scss */
+.btn-secundario:hover {
+  background-color: #7f4040;
+  color: #7f1a1a; }
+
+/* line 1, ../../sass/modules/color-map.scss */
+.bg-map {
+  background-color: #7f1a1a;
+  color: #7f1a1a; }
+
+/* line 2, ../../sass/modules/color-map.scss */
+#module-map i {
+  background-color: #fff; }
+
+/* line 8, ../../sass/modules/color-map.scss */
+#module-map i {
+  color: #7f1a1a;
+  border-color: white; }
+
+/* line 9, ../../sass/modules/color-map.scss */
+address {
+  color: #7f1a1a; }
+
+/* line 2, ../../sass/modules/color-habitacion.scss */
+#body-content {
+  background-color: #FFF; }
+
+/* line 1, ../../sass/modules/color-footer.scss */
+footer ul > li > a:hover, footer ul.social > li > a:hover > i {
+  color: #ff3434; }
+
+/* line 4, ../../sass/modules/color-footer.scss */
+footer {
+  background-color: #E6E6E0;
+  color: #000; }
+
+/* line 5, ../../sass/modules/color-footer.scss */
+footer h5 {
+  color: #7f1a1a; }
+
+/* line 6, ../../sass/modules/color-footer.scss */
+footer ul > li > a {
+  color: #7f1a1a; }
+
+/* line 7, ../../sass/modules/color-footer.scss */
+footer ul > li > a, footer ul.social > li > a > i {
+  color: #7f1a1a; }

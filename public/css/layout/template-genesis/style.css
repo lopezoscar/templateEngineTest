@@ -1,0 +1,23 @@
+/*Librerias Insertadas*/
+@import url("../../libs/bootstrap.min.css");
+@import url("../../libs/font-awesome.min.css");
+
+/*Estilos Compartidos*/
+@import url("modulos/general.css");
+
+/*modules Insertados*/
+@import url("modulos/module-header.css");
+@import url("modulos/module-hero.css");
+@import url("modulos/module-amenities.css");
+@import url("modulos/module-habitaciones.css");
+@import url("modulos/module-gallery.css");
+@import url("modulos/module-comments.css");
+@import url("modulos/module-map.css");
+@import url("modulos/module-footer.css");
+/*modules habitacion*/
+@import url("modulos/module-hero-slider.css");
+@import url("modulos/module-habitacion.css");
+/*modules Resultados*/
+@import url("modulos/module-resultados.css");
+/*modules Resultados*/
+@import url("modulos/module-generica.css");

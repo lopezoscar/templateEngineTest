@@ -1,0 +1,36 @@
+#module-hero-slider{ height: 440px; position: relative; background-size: cover; background-position: center center}
+#module-hero-slider .shadow{width: 100%; height: 440px; display: block; position: absolute; z-index: 1; background-color: rgba(0,0,0, 0.3); left: 0; top: 0; }
+.slider-control{ position: absolute; top: 45%; z-index: 3; width: 70px; height: 70px; display: block; line-height: 70px; text-align: center; border-radius: 70px; }
+.slider-control>a{ width: 70px; height: 70px; display: block; color: #fff; text-align: center; border-radius: 70px; background-color: rgba(0,0,0,0.3);}
+.slider-control>a:hover{ background-color: rgba(0,0,0,0.6)}
+.arrow-left{left: 10px;}
+.arrow-left>a>i{margin-right: 8px; margin-top: 4px;}
+.arrow-right{right: 10px;}
+.arrow-right>a>i{margin-left: 8px; margin-top: 4px;}
+
+#module-hero-slider>h1{ font-size: 28px; padding: 30px 30px 50px; color: #F0F0F0; position: absolute; bottom: -10px; left: 0; z-index: 2; width:100%; 
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 98%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(98%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#landing #module-hero-slider, #landing #module-hero-slider .shadow{height: 350px;}
+#landing .slider-control, #landing #module-hero-slider>h1{ display: none !important;}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+
+@media (max-width: 767px){
+	#module-hero-slider, #module-hero-slider .shadow{ height: 300px;}
+	#module-hero-slider>h1{font-size: 24px;}
+	.slider-control{top: 30%;}
+}

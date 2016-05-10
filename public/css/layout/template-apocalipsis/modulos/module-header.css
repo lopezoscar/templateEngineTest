@@ -1,0 +1,26 @@
+header, header nav, header nav.navbar>.container-fluid{ height: 70px; line-height: 70px;}
+header{position: fixed; top: 0; left: 0; z-index: 5; width: 100%;}
+.navbar-brand{ height: 70px; padding: 0;}
+header nav.navbar{margin-bottom: 0;}
+header .navbar-nav>li>a{line-height: 40px;border-bottom: 2px solid transparent;}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, nav .open>a:focus{background-color: transparent !important; border-bottom: 2px solid;}
+header .img-responsive{ margin: 5px auto 0;}
+#leng-select{margin-top: 18px;}
+
+@media (min-width: 768px) and (max-width: 991px){
+	header .navbar-nav>li>a{padding: 10px;}
+}
+@media (max-width: 767px){
+	header #menupos1{ position: fixed; top: 70px; left: 0; width: 100%;}
+	.navbar-toggle{margin-right: 0;}
+	.navbar-toggle .icon-bar{width: 44px; height: 44px; background-color: red; line-height: 48px;}
+	.navbar-toggle span i{color: #fff; font-size: 20px;}
+	#menu{    background-color: #fff;
+    color: #000!important;
+    width: 107%;
+    left: -10px;
+    position: fixed;
+    top: 62px;
+    padding: 0 20px;
+    display: none;}
+}

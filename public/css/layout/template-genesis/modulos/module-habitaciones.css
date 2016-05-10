@@ -1,0 +1,61 @@
+#custom_carousel .item {
+
+    color:#000;
+    background-color:#eee;
+    padding:20px 0;
+    height: 375px;
+    background-size: cover;
+    background-position: center center;
+}
+#custom_carousel .controls{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background:#ddd
+}
+#custom_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width:90px
+}
+#custom_carousel .controls li.active {
+    background-color:#eee;
+    border-top:3px solid orange;
+}
+#custom_carousel .controls a small {
+    overflow:hidden;
+    display:block;
+    font-size:10px;
+    margin-top:5px;
+    font-weight:bold
+}
+.txt-shadow{
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	font-size: 12px;
+}
+
+
+
+@media (max-width: 767px){
+	
+	#custom_carousel .controls li{
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		border-bottom: 1px solid #fff;
+	}
+	#custom_carousel .item{
+		height: 300px;
+	}
+		
+}
+

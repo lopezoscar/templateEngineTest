@@ -1,0 +1,145 @@
+<div class="container-fluid" id="body-content">
+    <!-- Resultado de Habitaciones -->
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                <section class="row filter">
+                    <div class="col-lg-12">
+                        <h5>Filtrar por: Moneda</h5>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                                    U.S. Dolar (US$)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="row filter">
+                    <div class="col-lg-12">
+                        <h5>Filtrar por: Plan de Comida</h5>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Moneda Local (S)
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="row head-filter">
+                    <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+                        <b>99</b> habitaciones disponibles para su  busqueda
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <select class="form-control">
+                            <option>Precio: menos a mayor</option>
+                            <option>Precio: mayor a menos</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    [{max:2,title:"habitacion doble estandar",desc:""}]
+                    {{#each rooms}}
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a href="#." class="row cluster">
+                            <div class="col-lg-12 bg-cluster" style="padding-top:15px; paddng-bottom:15px;">
+                                <div class="row">
+                                    <div class="col-lg-3 img-cont">
+                                        <img class="img-responsive" src="http://media.staticontent.com/media/pictures/811c6252-e0e7-4345-a556-200201aa0b79/1920x1080" height="300"/>
+                                    </div>
+                                    <div class="col-lg-9 text-left">
+                                        <h3>{{title}}</h3>
+                                        <p>{{desc}}</p>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p class="text-left">Capacidad Maxima: {{max}}</p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p class="text-left">Capacidad Maxima: {{max}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row top-buffer">
+                                    <div class="col-lg-3">
+                                        <p class="text-left">Cancele sin cargo hasta 48 horas antes del check-in</p>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <ul>
+                                            <li>Pago en el hotel</li>
+                                            <li>Pago hasta en 18 cuotas</li>
+                                            <li>Incluye Desayuno</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 room-price">
+                                        $590<span >Por noche</span>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <button type="button" class="btn btn-warning btn-block">Reservar Habitación</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {{/each}}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

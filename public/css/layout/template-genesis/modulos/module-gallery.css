@@ -1,0 +1,15 @@
+.gallery-img-principal{ width: 100%; height: 605px; display: block; background-color: #ddd; overflow: hidden;}
+.gallery-img-principal>img{width: 100%; }
+.gallery-img-secundari{ width: 100%; height: 195px; display: block; background-color: #ddd; margin-bottom: 10px; overflow: hidden;}
+.gallery-img-secundari:last-child{margin-bottom: 0;}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.gallery-img-secundari{height: 120px;}
+	.gallery-img-principal{height: 380px;}
+}
+
+@media (max-width: 767px){
+.gallery-img-principal{ height: 180px; }
+.gallery-img-secundari:last-child{margin-bottom: 10px;}
+
+}

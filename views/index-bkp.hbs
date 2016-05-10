@@ -1,0 +1,42 @@
+<!DOCYTPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        {{#mostrar "cosas"}}
+
+        {{/mostrar}}
+        {{#dosParams "para1" "param2"}}
+
+        {{/dosParams}}
+
+        {{#gt 1 2 }}
+            <h2>DOS ES MAYOR A 1</h2>
+            {{else}}
+            <h2>B ES MENOR A </h2>
+        {{/gt}}
+        <ul>
+            {{#each menu}}
+                <li>{{@index}} - {{desc}}</li>
+            {{/each}}
+        </ul>
+
+        {{#compare 1 1 operator="=="}}
+            <h2>SON IGUALES</h2>
+        {{/compare}}
+
+
+        {{#if banner}}
+            <div>Banner!!!</div>
+            {{else}}
+            <div>NO HAY Banner!!!</div>
+        {{/if}}
+
+        {{#each persona}}
+            {{@key}} - {{@this}}
+        {{/each}}
+
+    </body>
+</html>
